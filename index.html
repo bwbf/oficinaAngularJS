@@ -64,6 +64,7 @@
     <tr ng-repeat="contato in contatos | filter: filtroPesquisa" ng-class="{vermelho: passou}" ng-mouseenter="passou = true" ng-mouseleave="passou = false">
         <td>{{contato.nome}}</td>
         <td>{{contato.telefone}}</td>
+		
     </tr>
 </table>
 {{passou}}
